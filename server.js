@@ -6,8 +6,8 @@ const DB = process.env.DB_HOST;
 mongoose
   .connect(DB)
   .then(() => {
-    app.listen(3000, () => {
-      console.log("Server running. Use our API on port: 3000");
+    app.listen(3333, () => {
+      console.log("Server running. Use our API on port: 3333");
     });
   })
   .catch((error) => {

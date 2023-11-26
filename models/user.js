@@ -22,6 +22,7 @@ const userSchema = new Schema(
       match: emailRegexp,
       unique: true,
     },
+    token: String,
   },
   { versionKey: false, timestamps: true }
 );
